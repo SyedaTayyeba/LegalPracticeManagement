@@ -47,3 +47,23 @@ export const router = createBrowserRouter([
   },
   { path: '*', element: <Navigate to="/login" replace /> },
 ])
+
+//for test
+// import { createBrowserRouter, Navigate } from 'react-router-dom'
+// import Login from '../pages/Login'
+// import Dashboard from '../pages/Dashboard'
+
+// export const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <Navigate to="/dashboard" replace />,
+//   },
+//   {
+//     path: '/dashboard',
+//     element: <Dashboard />,
+//   },
+//   {
+//     path: '/login',
+//     element: <Login />,
+//   },
+// ])
